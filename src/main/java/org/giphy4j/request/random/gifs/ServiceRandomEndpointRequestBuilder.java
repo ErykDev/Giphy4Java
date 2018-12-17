@@ -2,6 +2,8 @@ package org.giphy4j.request.random.gifs;
 
 import org.giphy4j.interfaces.OnError;
 import org.giphy4j.interfaces.OnSingleSearchSuccess;
+import org.giphy4j.request.Rating;
+import org.giphy4j.request.random.stickers.ServiceRandomStickerRequestBuilder;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
 
 /**
@@ -26,8 +28,8 @@ public final class ServiceRandomEndpointRequestBuilder extends RequestBuilder {
      * Setting the rate query
      * @param _Rating sticker rating
      */
-    public ServiceRandomEndpointRequestBuilder setRating(String _Rating) {
-        this._Rating = _Rating;
+    public ServiceRandomEndpointRequestBuilder setRating(Rating _Rating) {
+        this._Rating = _Rating.toString();
         return this;
     }
 

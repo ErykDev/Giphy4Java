@@ -2,6 +2,7 @@ package org.giphy4j.request.trending.stickers;
 
 import org.giphy4j.interfaces.OnError;
 import org.giphy4j.interfaces.OnMultiSearchSuccess;
+import org.giphy4j.request.Rating;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
 
 /**
@@ -35,8 +36,8 @@ public final class ServiceTrendingStickersRequestBuilder extends RequestBuilder 
      * Setting the rate query
      * @param _Rating Sticker rating
      */
-    public ServiceTrendingStickersRequestBuilder setRating(String _Rating) {
-        this._Rating = _Rating;
+    public ServiceTrendingStickersRequestBuilder setRating(Rating _Rating) {
+        this._Rating = _Rating.toString();
         return this;
     }
 

@@ -3,7 +3,9 @@ package org.giphy4j.request.search.stickers;
 import org.giphy4j.interfaces.OnError;
 import org.giphy4j.interfaces.OnMultiSearchSuccess;
 import org.giphy4j.request.Language;
+import org.giphy4j.request.Rating;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
+import org.giphy4j.request.trending.gifs.ServiceTrendingRequestBuilder;
 
 /**
  * @author Eryk Szmyt
@@ -48,8 +50,8 @@ public final class ServiceStickersSearchRequestBuilder extends RequestBuilder {
      * Setting the rate query
      * @param _Rating sticker rating
      */
-    public ServiceStickersSearchRequestBuilder setRating(String _Rating) {
-        this._Rating = _Rating;
+    public ServiceStickersSearchRequestBuilder setRating(Rating _Rating) {
+        this._Rating = _Rating.toString();
         return this;
     }
 

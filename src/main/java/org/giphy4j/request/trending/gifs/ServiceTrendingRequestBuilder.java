@@ -2,7 +2,9 @@ package org.giphy4j.request.trending.gifs;
 
 import org.giphy4j.interfaces.OnError;
 import org.giphy4j.interfaces.OnMultiSearchSuccess;
+import org.giphy4j.request.Rating;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
+import org.giphy4j.request.trending.stickers.ServiceTrendingStickersRequestBuilder;
 
 /**
  * @author Eryk Szmyt
@@ -45,8 +47,8 @@ public final class ServiceTrendingRequestBuilder extends RequestBuilder {
      * Setting the rate query
      * @param _Rating Gif rating
      */
-    public ServiceTrendingRequestBuilder setRating(String _Rating) {
-        this._Rating = _Rating;
+    public ServiceTrendingRequestBuilder setRating(Rating _Rating) {
+        this._Rating = _Rating.toString();
         return this;
     }
 
