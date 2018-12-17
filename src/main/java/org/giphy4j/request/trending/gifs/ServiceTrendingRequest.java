@@ -66,6 +66,19 @@ public final class ServiceTrendingRequest extends MultiResultRequest {
         return urlBuilder.build().toString();
     }
 
+    @Override
+    public Thread wrapIntoThread() {
+        return new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    execute();
+                } catch (NoResultException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
 
     /**
      * Executing request on /v1/gifs/trending

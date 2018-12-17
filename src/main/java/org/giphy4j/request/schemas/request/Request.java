@@ -36,4 +36,9 @@ public abstract class Request {
      * @return generated url ready to request
      */
     protected abstract String generateUrl();
+
+    /**
+     * Wraps request into thread
+     * */
+    public abstract Thread wrapIntoThread();
 }

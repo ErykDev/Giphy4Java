@@ -61,6 +61,19 @@ public final class ServiceTrendingStickersRequest extends MultiResultRequest {
         return urlBuilder.build().toString();
     }
 
+    @Override
+    public Thread wrapIntoThread() {
+        return new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    execute();
+                } catch (NoResultException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
 
     /**
      * Executing request on /v1/stickers/trending

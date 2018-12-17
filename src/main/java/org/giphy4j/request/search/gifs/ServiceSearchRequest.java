@@ -85,6 +85,23 @@ public final class ServiceSearchRequest extends MultiResultRequest {
     }
 
     /**
+     * Wraps request into new thread
+     * */
+    @Override
+    public Thread wrapIntoThread() {
+        return new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    execute();
+                } catch (NoResultException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+
+    /**
      * Executing request on /v1/gifs/search
      * @return MultiParsedResult
      * @throws NoResultException while results counts is equal to zero

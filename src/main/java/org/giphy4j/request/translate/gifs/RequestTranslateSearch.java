@@ -60,6 +60,22 @@ public final class RequestTranslateSearch extends SingleResultRequest {
         return urlBuilder.build().toString();
     }
 
+    /**
+     * Wraps request into new thread
+     * */
+    @Override
+    public Thread wrapIntoThread() {
+        return new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    execute();
+                } catch (NoResultException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
 
     /**
      * Executing request on /v1/gifs/translate
