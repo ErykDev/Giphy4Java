@@ -1,10 +1,9 @@
 package org.giphy4j.request.trending.gifs;
 
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnMultiSearchSuccess;
 import org.giphy4j.request.Rating;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
-import org.giphy4j.request.trending.stickers.ServiceTrendingStickersRequestBuilder;
 
 /**
  * @author Eryk Szmyt
@@ -16,7 +15,7 @@ public final class ServiceTrendingRequestBuilder extends RequestBuilder {
     private int _Offset = 20;
     private String _Rating = "";
     private OnMultiSearchSuccess _OnMultiSearchSuccess;
-    private OnError _OnError;
+    private OnResponseError _OnResponseError;
 
     /**
      * @param ApiKey Giphy ApiKey
@@ -63,10 +62,10 @@ public final class ServiceTrendingRequestBuilder extends RequestBuilder {
 
     /**
      * Setting on failed request action
-     * @param _OnError on Error action
+     * @param _OnResponseError on Error action
      */
-    public ServiceTrendingRequestBuilder setOnError(OnError _OnError) {
-        this._OnError = _OnError;
+    public ServiceTrendingRequestBuilder setOnError(OnResponseError _OnResponseError) {
+        this._OnResponseError = _OnResponseError;
         return this;
     }
 
@@ -76,6 +75,6 @@ public final class ServiceTrendingRequestBuilder extends RequestBuilder {
      */
     @Override
     public ServiceTrendingRequest build(){
-        return new ServiceTrendingRequest(_ApiKey,_Limit,_Offset,_Rating, _OnMultiSearchSuccess,_OnError);
+        return new ServiceTrendingRequest(_ApiKey,_Limit,_Offset,_Rating, _OnMultiSearchSuccess, _OnResponseError);
     }
 }

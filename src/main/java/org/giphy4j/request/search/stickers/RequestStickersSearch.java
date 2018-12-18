@@ -8,7 +8,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import org.giphy4j.exceptions.NoResultException;
 import org.giphy4j.exceptions.response.ResponseError;
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnMultiSearchSuccess;
 import org.giphy4j.request.Language;
 import org.giphy4j.request.schemas.request.child.MultiResultRequest;
@@ -28,7 +28,7 @@ public final class RequestStickersSearch extends MultiResultRequest {
     private Language _Lang;
     private OnMultiSearchSuccess _OnMultiSearchSuccess = null;
     private String _Query;
-    private OnError _OnError = err -> {
+    private OnResponseError _OnResponseError = err -> {
         throw new Error(err.getResponseCode()+"  "+err.getMessage());
     };
 
@@ -40,9 +40,9 @@ public final class RequestStickersSearch extends MultiResultRequest {
      * @param rating rating query
      * @param language searching language
      * @param onMultiSearchSuccess on Success action
-     * @param onError on Error action
+     * @param onResponseError on Error action
      */
-    RequestStickersSearch(String ApiKey, int limit, int offset, String query, String rating, Language language, OnMultiSearchSuccess onMultiSearchSuccess, OnError onError){
+    RequestStickersSearch(String ApiKey, int limit, int offset, String query, String rating, Language language, OnMultiSearchSuccess onMultiSearchSuccess, OnResponseError onResponseError){
         super(ApiKey);
         this._Limit = limit;
         this._Offset = offset;
@@ -51,8 +51,8 @@ public final class RequestStickersSearch extends MultiResultRequest {
         this._Rating = rating;
         this._Lang = language;
         this._OnMultiSearchSuccess = onMultiSearchSuccess;
-        if (onError != null)
-        this._OnError = onError;
+        if (onResponseError != null)
+        this._OnResponseError = onResponseError;
     }
 
     /**
@@ -123,7 +123,7 @@ public final class RequestStickersSearch extends MultiResultRequest {
                             _OnMultiSearchSuccess.run(pr.getData());
                         }catch (NullPointerException ignored){}
                     }else {
-                        _OnError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
+                        _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
                         throw new NoResultException("There is no results for: "+_Query);
                     }
 

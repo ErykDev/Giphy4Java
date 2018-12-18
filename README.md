@@ -3,8 +3,6 @@ Simply asynchronous wrapper library for Giphy Api
 
 
 ### Installing
-Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.0/giphy4j.jar)
-
 Maven:
 ```
 <repository>
@@ -18,7 +16,7 @@ Maven:
     <version>v1.0.0</version>
 </dependency>
 ```
-
+Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.0/giphy4j.jar)
 
 
 ## Building the service
@@ -32,7 +30,7 @@ Maven:
 ```
 
 ## Example usage
-### Requesting '/v1/gifs/search'
+### Requesting '/v1/gifs/search', search all GIPHY GIFs for a matching query.
 ```
         MultiResultRequest mrr = gs.getSearchRequestBuilder()
                 .setLanguage(Language.English) //search query language
@@ -54,6 +52,31 @@ Maven:
             e.printStackTrace();
         }
 ```
+
+### uploading gifs programmatically to giphy.com
+```
+        String userame;
+        String path;
+        String[] giftags;//or Arraylist<String>
+
+        UploadRequest up = gs.getUploadRequestBuilder()
+                .setUserName(userame)
+                .setFile(new File(path))
+                .setTags(giftags)
+                .setOnSuccess(new OnUploadSuccess() {
+                    @Override
+                    public void run() {
+                        System.out.println("Success!!!");
+                    }
+                }).build();
+
+        try {
+            up.execute();
+        } catch (UploadException e) {
+            e.printStackTrace();
+        }
+```
+
 ### More examples:[link](https://github.com/BadlyDrunkScotsman/Giphy4Java/wiki/More-Examples)
 
 ## Built With

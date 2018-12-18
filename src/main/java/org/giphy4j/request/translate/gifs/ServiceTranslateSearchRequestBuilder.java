@@ -1,6 +1,6 @@
 package org.giphy4j.request.translate.gifs;
 
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnSingleSearchSuccess;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
 
@@ -13,7 +13,7 @@ public final class ServiceTranslateSearchRequestBuilder extends RequestBuilder {
     private String _Query = null;
     private int _Weirdness = 5;
     private OnSingleSearchSuccess _OnSearchSuccess = null;
-    private OnError _OnError = null;
+    private OnResponseError _OnResponseError = null;
 
 
     /**
@@ -25,10 +25,10 @@ public final class ServiceTranslateSearchRequestBuilder extends RequestBuilder {
 
     /**
      * Setting on failed request action
-     * @param OnError on Error action
+     * @param OnResponseError on Error action
      */
-    public ServiceTranslateSearchRequestBuilder setOnError(OnError OnError){
-        this._OnError = OnError;
+    public ServiceTranslateSearchRequestBuilder setOnError(OnResponseError OnResponseError){
+        this._OnResponseError = OnResponseError;
         return this;
     }
 
@@ -67,6 +67,6 @@ public final class ServiceTranslateSearchRequestBuilder extends RequestBuilder {
         if (_Query == null)
             throw new Error("Missing query");
 
-        return new RequestTranslateSearch(_ApiKey,_Query, _Weirdness, _OnSearchSuccess,_OnError);
+        return new RequestTranslateSearch(_ApiKey,_Query, _Weirdness, _OnSearchSuccess, _OnResponseError);
     }
 }

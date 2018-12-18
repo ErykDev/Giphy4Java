@@ -16,3 +16,4 @@ org.giphy4j.request.translate.gifs
 org.giphy4j.request.translate.stickers
 org.giphy4j.request.trending.gifs
 org.giphy4j.request.trending.stickers
+org.giphy4j.request.upload

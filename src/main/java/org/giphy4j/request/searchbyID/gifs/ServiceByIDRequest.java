@@ -8,7 +8,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import org.giphy4j.exceptions.NoResultException;
 import org.giphy4j.exceptions.response.ResponseError;
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnSingleSearchSuccess;
 import org.giphy4j.request.parse.SingleParsedResult;
 import org.giphy4j.request.schemas.request.child.SingleResultRequest;
@@ -23,7 +23,7 @@ public final class ServiceByIDRequest extends SingleResultRequest {
 
     private String _IDs;
     private OnSingleSearchSuccess _onSingleSearchSuccess;
-    private OnError _OnError = err -> {
+    private OnResponseError _OnResponseError = err -> {
         throw new Error(err.getResponseCode()+"  "+err.getMessage());
     };
 
@@ -31,14 +31,14 @@ public final class ServiceByIDRequest extends SingleResultRequest {
      * @param ApiKey Giphy ApiKey
      * @param Ids Searching gif id
      * @param onSingleSearchSuccess on success request action
-     * @param onError on failed request action
+     * @param onResponseError on failed request action
      */
-    ServiceByIDRequest(String ApiKey, String Ids, OnSingleSearchSuccess onSingleSearchSuccess, OnError onError){
+    ServiceByIDRequest(String ApiKey, String Ids, OnSingleSearchSuccess onSingleSearchSuccess, OnResponseError onResponseError){
         super(ApiKey);
         this._IDs = Ids;
         this._onSingleSearchSuccess = onSingleSearchSuccess;
-        if (onError != null)
-        this._OnError = onError;
+        if (onResponseError != null)
+        this._OnResponseError = onResponseError;
     }
 
     /**
@@ -93,7 +93,7 @@ public final class ServiceByIDRequest extends SingleResultRequest {
                     _onSingleSearchSuccess.run(prr.getData());
                 }catch (NullPointerException ignored){ }
             else{
-                _OnError.run(new ResponseError(prr.getMeta().getStatus(),prr.getMeta().getMsg()));
+                _OnResponseError.run(new ResponseError(prr.getMeta().getStatus(),prr.getMeta().getMsg()));
             }
             return prr;
 

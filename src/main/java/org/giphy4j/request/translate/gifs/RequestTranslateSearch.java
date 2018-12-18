@@ -8,7 +8,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import org.giphy4j.exceptions.NoResultException;
 import org.giphy4j.exceptions.response.ResponseError;
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnSingleSearchSuccess;
 import org.giphy4j.request.parse.SingleParsedResult;
 import org.giphy4j.request.schemas.request.child.SingleResultRequest;
@@ -24,7 +24,7 @@ public final class RequestTranslateSearch extends SingleResultRequest {
     private String _Query;
     private int _Weirdness;
     private OnSingleSearchSuccess _OnSearchSuccess = null;
-    private OnError _OnError = err -> {
+    private OnResponseError _OnResponseError = err -> {
         throw new Error(err.getResponseCode()+"  "+err.getMessage());
     };
 
@@ -33,15 +33,15 @@ public final class RequestTranslateSearch extends SingleResultRequest {
      * @param _Query Searching query
      * @param weirdness Weirdness level 0~10
      * @param onSearchSuccess on success action
-     * @param onError on error action
+     * @param onResponseError on error action
      */
-    RequestTranslateSearch(String _ApiKey, String _Query, int weirdness, OnSingleSearchSuccess onSearchSuccess, OnError onError){
+    RequestTranslateSearch(String _ApiKey, String _Query, int weirdness, OnSingleSearchSuccess onSearchSuccess, OnResponseError onResponseError){
         super(_ApiKey);
         this._Query = _Query;
         this._OnSearchSuccess = onSearchSuccess;
         this._Weirdness = weirdness;
-        if (onError != null)
-        this._OnError = onError;
+        if (onResponseError != null)
+        this._OnResponseError = onResponseError;
     }
 
     /**
@@ -104,7 +104,7 @@ public final class RequestTranslateSearch extends SingleResultRequest {
                 } else
                     throw new NoResultException("There is no results for: " + _Query);
             }else{
-                    _OnError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
+                    _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
             }
             return pr;
 

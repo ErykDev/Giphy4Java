@@ -1,6 +1,6 @@
 package org.giphy4j.request.translate.stickers;
 
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnSingleSearchSuccess;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
 
@@ -12,7 +12,7 @@ public final class ServiceStickersTranslateRequestBuilder extends RequestBuilder
 
     private String _Query = null;
     private OnSingleSearchSuccess _OnSearchSuccess = null;
-    private OnError _OnError = null;
+    private OnResponseError _OnResponseError = null;
 
     /**
      * @param ApiKey Giphy ApiKey
@@ -23,10 +23,10 @@ public final class ServiceStickersTranslateRequestBuilder extends RequestBuilder
 
     /**
      * Setting on failed request action
-     * @param OnError on Error action
+     * @param OnResponseError on Error action
      */
-    public ServiceStickersTranslateRequestBuilder setOnError(OnError OnError){
-        this._OnError = OnError;
+    public ServiceStickersTranslateRequestBuilder setOnError(OnResponseError OnResponseError){
+        this._OnResponseError = OnResponseError;
         return this;
     }
 
@@ -56,6 +56,6 @@ public final class ServiceStickersTranslateRequestBuilder extends RequestBuilder
         if (_Query == null)
             throw new Error("Missing query");
 
-        return new RequestStickersTranslateSearch(_ApiKey,_Query, _OnSearchSuccess,_OnError);
+        return new RequestStickersTranslateSearch(_ApiKey,_Query, _OnSearchSuccess, _OnResponseError);
     }
 }

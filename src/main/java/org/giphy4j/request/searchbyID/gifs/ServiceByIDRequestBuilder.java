@@ -1,6 +1,6 @@
 package org.giphy4j.request.searchbyID.gifs;
 
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnSingleSearchSuccess;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
 
@@ -12,7 +12,7 @@ public final class ServiceByIDRequestBuilder extends RequestBuilder {
 
     private String _IDs = null;
     private OnSingleSearchSuccess onSingleSearchSuccess;
-    private OnError _OnError;
+    private OnResponseError _OnResponseError;
 
     /**
      * @param ApiKey Giphy ApiKey
@@ -42,10 +42,10 @@ public final class ServiceByIDRequestBuilder extends RequestBuilder {
 
     /**
      * Setting on failed request action
-     * @param _OnError on Error action
+     * @param _OnResponseError on Error action
      */
-    public ServiceByIDRequestBuilder setOnError(OnError _OnError) {
-        this._OnError = _OnError;
+    public ServiceByIDRequestBuilder setOnError(OnResponseError _OnResponseError) {
+        this._OnResponseError = _OnResponseError;
         return this;
     }
 
@@ -55,7 +55,7 @@ public final class ServiceByIDRequestBuilder extends RequestBuilder {
      */
     @Override
     public ServiceByIDRequest build(){
-        return new ServiceByIDRequest(_ApiKey,_IDs, onSingleSearchSuccess,_OnError);
+        return new ServiceByIDRequest(_ApiKey,_IDs, onSingleSearchSuccess, _OnResponseError);
     }
 
 }

@@ -8,7 +8,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import org.giphy4j.exceptions.NoResultException;
 import org.giphy4j.exceptions.response.ResponseError;
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnSingleSearchSuccess;
 import org.giphy4j.request.parse.SingleParsedResult;
 import org.giphy4j.request.schemas.request.child.SingleResultRequest;
@@ -24,24 +24,24 @@ public final class ServiceRandomStickerRequest extends SingleResultRequest {
     private String _Rating = null;
     private String _Tag = null;
     private OnSingleSearchSuccess _OnSingleSearchSuccess;
-    private OnError _OnError = err -> {
+    private OnResponseError _OnResponseError = err -> {
         throw new Error(err.getResponseCode()+"  "+err.getMessage());
     };
 
     /**
      * @param ApiKey Giphy Api Key
      * @param onSearchSuccess on success action
-     * @param onError on error action
+     * @param onResponseError on error action
      * @param Rating rating query to search
      * @param Tag tag query to search
      */
-    ServiceRandomStickerRequest(String ApiKey, OnSingleSearchSuccess onSearchSuccess, OnError onError, String Rating, String Tag){
+    ServiceRandomStickerRequest(String ApiKey, OnSingleSearchSuccess onSearchSuccess, OnResponseError onResponseError, String Rating, String Tag){
         super(ApiKey);
         this._Rating = Rating;
         this._Tag = Tag;
         this._OnSingleSearchSuccess = onSearchSuccess;
-        if (onError != null)
-            this._OnError = onError;
+        if (onResponseError != null)
+            this._OnResponseError = onResponseError;
     }
 
     /**
@@ -102,7 +102,7 @@ public final class ServiceRandomStickerRequest extends SingleResultRequest {
                         _OnSingleSearchSuccess.run(prr.getData());
                 }catch (NullPointerException e){}
             else{
-                _OnError.run(new ResponseError(prr.getMeta().getStatus(),prr.getMeta().getMsg()));
+                _OnResponseError.run(new ResponseError(prr.getMeta().getStatus(),prr.getMeta().getMsg()));
             }
             return prr;
 

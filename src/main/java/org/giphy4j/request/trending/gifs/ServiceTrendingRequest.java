@@ -8,7 +8,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import org.giphy4j.exceptions.NoResultException;
 import org.giphy4j.exceptions.response.ResponseError;
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnMultiSearchSuccess;
 import org.giphy4j.request.schemas.request.child.MultiResultRequest;
 import org.giphy4j.request.parse.MultiParsedResult;
@@ -25,7 +25,7 @@ public final class ServiceTrendingRequest extends MultiResultRequest {
     private int _Offset;
     private String _Rating;
     private OnMultiSearchSuccess _OnMultiSearchSuccess;
-    private OnError _OnError = err -> {
+    private OnResponseError _OnResponseError = err -> {
         throw new Error(err.getResponseCode()+"  "+err.getMessage());
     };
 
@@ -35,16 +35,16 @@ public final class ServiceTrendingRequest extends MultiResultRequest {
      * @param offset minimal number of results
      * @param rating rating query
      * @param onMultiSearchSuccess on Success action
-     * @param onError on Error action
+     * @param onResponseError on Error action
      */
-    ServiceTrendingRequest(String ApiKey, int limit, int offset, String rating, OnMultiSearchSuccess onMultiSearchSuccess, OnError onError) {
+    ServiceTrendingRequest(String ApiKey, int limit, int offset, String rating, OnMultiSearchSuccess onMultiSearchSuccess, OnResponseError onResponseError) {
         super(ApiKey);
         this._Limit = limit;
         this._Offset = offset;
         this._Rating = rating;
         this._OnMultiSearchSuccess = onMultiSearchSuccess;
-        if (onError != null)
-            this._OnError = onError;
+        if (onResponseError != null)
+            this._OnResponseError = onResponseError;
     }
 
     /**
@@ -66,6 +66,9 @@ public final class ServiceTrendingRequest extends MultiResultRequest {
         return urlBuilder.build().toString();
     }
 
+    /**
+     * Wraps request into new thread
+     * */
     @Override
     public Thread wrapIntoThread() {
         return new Thread(new Runnable() {
@@ -105,7 +108,7 @@ public final class ServiceTrendingRequest extends MultiResultRequest {
                     _OnMultiSearchSuccess.run(pr.getData());
                 }catch (NullPointerException ignored){}
             }else{
-                _OnError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
+                _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
             }
             return pr;
 

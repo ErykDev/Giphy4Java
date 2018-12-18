@@ -1,11 +1,10 @@
 package org.giphy4j.request.search.gifs;
 
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnMultiSearchSuccess;
 import org.giphy4j.request.Language;
 import org.giphy4j.request.Rating;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
-import org.giphy4j.request.search.stickers.ServiceStickersSearchRequestBuilder;
 
 /**
  * @author Eryk Szmyt
@@ -19,7 +18,7 @@ public final class ServiceSearchRequestBuilder extends RequestBuilder {
     private String _Query = null;
     private Language _Language = Language.English;
     private OnMultiSearchSuccess _OnMultiSearchSuccess = null;
-    private OnError _OnError = null;
+    private OnResponseError _OnResponseError = null;
 
     /**
      * @param ApiKey Giphy Api Key
@@ -84,10 +83,10 @@ public final class ServiceSearchRequestBuilder extends RequestBuilder {
 
     /**
      * Setting on failed request action
-     * @param _OnError on Error action
+     * @param _OnResponseError on Error action
      */
-    public ServiceSearchRequestBuilder setOnError(OnError _OnError){
-        this._OnError = _OnError;
+    public ServiceSearchRequestBuilder setOnError(OnResponseError _OnResponseError){
+        this._OnResponseError = _OnResponseError;
         return this;
     }
 
@@ -100,6 +99,6 @@ public final class ServiceSearchRequestBuilder extends RequestBuilder {
         if (_Query == null)
             throw new Error("Missing search Query");
 
-            return new ServiceSearchRequest(_ApiKey,_Limit,_Offset, _Query, _Rating,_Language, _OnMultiSearchSuccess, _OnError);
+            return new ServiceSearchRequest(_ApiKey,_Limit,_Offset, _Query, _Rating,_Language, _OnMultiSearchSuccess, _OnResponseError);
     }
 }

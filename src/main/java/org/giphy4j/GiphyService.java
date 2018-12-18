@@ -4,6 +4,7 @@
 package org.giphy4j;
 
 import org.giphy4j.request.random.stickers.ServiceRandomStickerRequestBuilder;
+import org.giphy4j.request.schemas.request.child.UploadRequest;
 import org.giphy4j.request.search.gifs.ServiceSearchRequestBuilder;
 import org.giphy4j.request.random.gifs.ServiceRandomEndpointRequestBuilder;
 import org.giphy4j.request.searchbyID.gifs.ServiceByIDRequestBuilder;
@@ -12,6 +13,7 @@ import org.giphy4j.request.translate.gifs.ServiceTranslateSearchRequestBuilder;
 import org.giphy4j.request.translate.stickers.ServiceStickersTranslateRequestBuilder;
 import org.giphy4j.request.trending.gifs.ServiceTrendingRequestBuilder;
 import org.giphy4j.request.trending.stickers.ServiceTrendingStickersRequestBuilder;
+import org.giphy4j.request.upload.ServiceUploadRequestBuilder;
 
 /**
  * @author Eryk Szmyt
@@ -89,6 +91,10 @@ public final class GiphyService {
      * */
     public ServiceTrendingStickersRequestBuilder getTrendingStickersBuilder(){
         return new ServiceTrendingStickersRequestBuilder(API_KEY);
+    }
+
+    public ServiceUploadRequestBuilder getUploadRequestBuilder(){
+        return new ServiceUploadRequestBuilder(API_KEY);
     }
 
     /**

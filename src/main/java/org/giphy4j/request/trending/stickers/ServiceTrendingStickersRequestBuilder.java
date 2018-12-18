@@ -1,6 +1,6 @@
 package org.giphy4j.request.trending.stickers;
 
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnMultiSearchSuccess;
 import org.giphy4j.request.Rating;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
@@ -14,7 +14,7 @@ public final class ServiceTrendingStickersRequestBuilder extends RequestBuilder 
     private int _Limit = 20;
     private String _Rating = "";
     private OnMultiSearchSuccess _OnMultiSearchSuccess;
-    private OnError _OnError;
+    private OnResponseError _OnResponseError;
 
     /**
      * @param ApiKey Key to Giphy Api
@@ -52,10 +52,10 @@ public final class ServiceTrendingStickersRequestBuilder extends RequestBuilder 
 
     /**
      * Setting on failed request action
-     * @param _OnError on Error action
+     * @param _OnResponseError on Error action
      */
-    public ServiceTrendingStickersRequestBuilder setOnError(OnError _OnError) {
-        this._OnError = _OnError;
+    public ServiceTrendingStickersRequestBuilder setOnError(OnResponseError _OnResponseError) {
+        this._OnResponseError = _OnResponseError;
         return this;
     }
 
@@ -65,6 +65,6 @@ public final class ServiceTrendingStickersRequestBuilder extends RequestBuilder 
      */
     @Override
     public ServiceTrendingStickersRequest build(){
-        return new ServiceTrendingStickersRequest(_ApiKey,_Limit,_Rating, _OnMultiSearchSuccess,_OnError);
+        return new ServiceTrendingStickersRequest(_ApiKey,_Limit,_Rating, _OnMultiSearchSuccess, _OnResponseError);
     }
 }

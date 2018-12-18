@@ -1,10 +1,9 @@
 package org.giphy4j.request.random.stickers;
 
-import org.giphy4j.interfaces.OnError;
+import org.giphy4j.interfaces.OnResponseError;
 import org.giphy4j.interfaces.OnSingleSearchSuccess;
 import org.giphy4j.request.Rating;
 import org.giphy4j.request.schemas.builder.RequestBuilder;
-import org.giphy4j.request.search.gifs.ServiceSearchRequestBuilder;
 
 /**
  * @author Eryk Szmyt
@@ -15,7 +14,7 @@ public final class ServiceRandomStickerRequestBuilder extends RequestBuilder {
     private String _Rating = null;
     private String _Tag = null;
     private OnSingleSearchSuccess _OnSingleSearchSuccess = null;
-    private OnError _OnError = null;
+    private OnResponseError _OnResponseError = null;
 
     /**
      * @param ApiKey Giphy ApiKey
@@ -53,10 +52,10 @@ public final class ServiceRandomStickerRequestBuilder extends RequestBuilder {
 
     /**
      * Setting on failed request action
-     * @param _OnError on Error action
+     * @param _OnResponseError on Error action
      */
-    public ServiceRandomStickerRequestBuilder setOnError(OnError _OnError){
-        this._OnError = _OnError;
+    public ServiceRandomStickerRequestBuilder setOnError(OnResponseError _OnResponseError){
+        this._OnResponseError = _OnResponseError;
         return this;
     }
 
@@ -66,7 +65,7 @@ public final class ServiceRandomStickerRequestBuilder extends RequestBuilder {
      */
     @Override
     public ServiceRandomStickerRequest build() {
-        return new ServiceRandomStickerRequest(_ApiKey, _OnSingleSearchSuccess,_OnError,_Rating,_Tag);
+        return new ServiceRandomStickerRequest(_ApiKey, _OnSingleSearchSuccess, _OnResponseError,_Rating,_Tag);
     }
 
 }

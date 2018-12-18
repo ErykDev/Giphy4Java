@@ -3,7 +3,7 @@ package org.giphy4j.request.parse;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class SingleParsedResult {
+public final class SingleParsedResult {
     @SerializedName("data")
     @Expose
     private Result data;

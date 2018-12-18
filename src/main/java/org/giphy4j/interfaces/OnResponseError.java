@@ -5,6 +5,6 @@ package org.giphy4j.interfaces;
 
 import org.giphy4j.exceptions.response.ResponseError;
 
-public interface OnError {
+public interface OnResponseError {
     void run(ResponseError err);
 }
