@@ -13,10 +13,10 @@ Maven:
 <dependency>
     <groupId>com.github.BadlyDrunkScotsman</groupId>
     <artifactId>Giphy4Java</artifactId>
-    <version>v1.0.0</version>
+    <version>v1.0.1</version>
 </dependency>
 ```
-Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.0/giphy4j.jar)
+Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.1/giphy4j.jar)
 
 
 ## Building the service
@@ -53,7 +53,7 @@ Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v
         }
 ```
 
-### uploading gifs programmatically to giphy.com
+### Uploading gifs programmatically to giphy.com
 ```
         String userame;
         String path;

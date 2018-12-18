@@ -1,230 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="giphy4j1.0.1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="71ae21c8-5c07-4b9d-a105-d0503d86398b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/UploadException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/interfaces/OnUploadSucces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/UploadErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/UploadRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/giphy4j_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/element-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-21.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/external/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/external/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jquery-1.10.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jquery-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jquery-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jquery-ui.structure.css" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jquery-ui.structure.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jquery-ui.structure.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jquery-ui.structure.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jszip-utils/dist/jszip-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jszip/dist/jszip.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jszip/dist/jszip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/jquery/jszip/dist/jszip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/jquery/jszip/dist/jszip.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/member-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/GiphyService.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/GiphyService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/GiphyServiceBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/GiphyServiceBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/MissingCredentialsException.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/MissingCredentialsException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/NoResultException.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/NoResultException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/response/ResponseError.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/response/ResponseError.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/response/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/response/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/response/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/response/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/response/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/exceptions/response/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/OnError.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/OnError.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/OnMultiSearchSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/OnMultiSearchSuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/OnSingleSearchSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/OnSingleSearchSuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/interfaces/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/Language.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/Language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Downsized.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Downsized.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/DownsizedLarge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/DownsizedLarge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/DownsizedMedium.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/DownsizedMedium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/DownsizedSmall.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/DownsizedSmall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/DownsizedStill.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/DownsizedStill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeight.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeightDownsampled.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeightDownsampled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeightSmall.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeightSmall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeightSmallStill.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeightSmallStill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeightStill.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedHeightStill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidth.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidthDownsampled.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidthDownsampled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidthSmall.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidthSmall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidthSmallStill.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidthSmallStill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidthStill.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/FixedWidthStill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Images.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Looping.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Looping.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Meta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/MultiParsedResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/MultiParsedResult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Onclick.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Onclick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Onload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Onload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Onsent.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Onsent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Original.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Original.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/OriginalMp4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/OriginalMp4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/OriginalStill.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/OriginalStill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Pagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Preview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/PreviewGif.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/PreviewGif.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/PreviewWebp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/PreviewWebp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Result.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/Result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/SingleParsedResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/SingleParsedResult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/_480wStill.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/_480wStill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/parse/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/gifs/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/ServiceRandomStickerRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/ServiceRandomStickerRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/random/stickers/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/builder/RequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/builder/RequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/builder/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/builder/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/builder/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/builder/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/builder/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/builder/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/Request.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/Request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/MultiResultRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/MultiResultRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/SingleResultRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/SingleResultRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/child/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/schemas/request/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/ServiceSearchRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/ServiceSearchRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/ServiceSearchRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/ServiceSearchRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/gifs/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/RequestStickersSearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/RequestStickersSearch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/ServiceStickersSearchRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/ServiceStickersSearchRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/search/stickers/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/searchbyID/gifs/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/RequestTranslateSearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/RequestTranslateSearch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/ServiceTranslateSearchRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/ServiceTranslateSearchRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/gifs/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/ServiceStickersTranslateRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/ServiceStickersTranslateRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/translate/stickers/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/ServiceTrendingRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/ServiceTrendingRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/gifs/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequestBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequestBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/giphy4j/request/trending/stickers/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/package-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/package-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/type-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/type-search-index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/interfaces/OnError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/interfaces/OnResponseError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/SingleParsedResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/SingleParsedResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/stickers/ServiceRandomStickerRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/stickers/ServiceRandomStickerRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/gifs/ServiceSearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/gifs/ServiceSearchRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/gifs/ServiceSearchRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/gifs/ServiceSearchRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/stickers/RequestStickersSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/stickers/RequestStickersSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/stickers/ServiceStickersSearchRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/stickers/ServiceStickersSearchRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/gifs/RequestTranslateSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/gifs/RequestTranslateSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/gifs/ServiceTranslateSearchRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/gifs/ServiceTranslateSearchRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/stickers/ServiceStickersTranslateRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/stickers/ServiceStickersTranslateRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/GiphyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/GiphyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/interfaces/OnError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/stickers/ServiceRandomStickerRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/stickers/ServiceRandomStickerRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/gifs/ServiceSearchRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/gifs/ServiceSearchRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/gifs/ServiceSearchRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/gifs/ServiceSearchRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/stickers/RequestStickersSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/stickers/RequestStickersSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/stickers/ServiceStickersSearchRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/stickers/ServiceStickersSearchRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/gifs/RequestTranslateSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/gifs/RequestTranslateSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/gifs/ServiceTranslateSearchRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/gifs/ServiceTranslateSearchRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/stickers/ServiceStickersTranslateRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/stickers/ServiceStickersTranslateRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/gifs/ServiceTrendingRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/gifs/ServiceTrendingRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequestBuilder.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -268,25 +52,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServiceUploadRequest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServiceUploadRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="1326">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="119">
+              <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -294,14 +76,10 @@
       <file leaf-file-name="UploadErrorResponse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/UploadErrorResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="68">
               <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -319,7 +97,7 @@
       <file leaf-file-name="ServiceTrendingRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
+            <state relative-caret-position="986">
               <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
             </state>
           </provider>
@@ -328,7 +106,7 @@
       <file leaf-file-name="ServiceByIDRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="748">
               <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="58" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -349,7 +127,7 @@
       <file leaf-file-name="ServiceUploadRequestBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="1887">
               <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -363,7 +141,7 @@
       <file leaf-file-name="GiphyService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
+            <state relative-caret-position="1309">
               <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
             </state>
           </provider>
@@ -413,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/test/Main.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -442,6 +220,31 @@
               <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
               <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j1_0_1_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j_1_0_0_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
@@ -702,19 +505,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.24945533" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15141612" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15141612" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24147122" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -729,6 +531,8 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.24945533" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -737,12 +541,94 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/UploadErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/SingleParsedResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/Rating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -791,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,18 +694,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/test/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -853,8 +725,6 @@
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -944,9 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,21 +847,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/UploadErrorResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="68">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="748">
           <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="58" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1004,30 +867,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
+        <state relative-caret-position="986">
           <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/test/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/Rating.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1037,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="1887">
           <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1049,29 +894,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
+        <state relative-caret-position="1309">
           <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="1326">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>giphy4j1.0.1:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>giphy4j</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.gson:gson:2.8.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
