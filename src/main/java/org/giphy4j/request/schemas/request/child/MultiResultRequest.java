@@ -7,6 +7,8 @@ import org.giphy4j.exceptions.NoResultException;
 import org.giphy4j.request.parse.MultiParsedResult;
 import org.giphy4j.request.schemas.request.Request;
 
+import java.util.Optional;
+
 public abstract class MultiResultRequest extends Request {
 
     /**
@@ -21,4 +23,9 @@ public abstract class MultiResultRequest extends Request {
      * @throws NoResultException while empty result
      */
     public abstract MultiParsedResult execute() throws NoResultException;
+
+    /**
+     * @return optional MultiResultRequest
+     * */
+    public abstract Optional<MultiParsedResult> executeForOptional();
 }

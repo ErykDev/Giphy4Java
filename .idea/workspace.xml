@@ -2,13 +2,47 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="giphy4j1.0.1:jar" />
+      <artifact name="giphy4j1.0.2:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71ae21c8-5c07-4b9d-a105-d0503d86398b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/giphy4j1_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/giphy4j1_0_2_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/giphy4j1_0_1_jar/giphy4j.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/giphy4j_1_0_0_jar/giphy4j.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/MultiResultRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/MultiResultRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/SingleResultRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/SingleResultRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/gifs/ServiceSearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/gifs/ServiceSearchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/stickers/RequestStickersSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/stickers/RequestStickersSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/gifs/RequestTranslateSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/gifs/RequestTranslateSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/schemas/request/child/MultiResultRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/schemas/request/child/MultiResultRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/schemas/request/child/SingleResultRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/schemas/request/child/SingleResultRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/gifs/ServiceSearchRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/gifs/ServiceSearchRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/gifs/ServiceSearchRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/gifs/ServiceSearchRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/stickers/RequestStickersSearch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/stickers/RequestStickersSearch$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/stickers/RequestStickersSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/search/stickers/RequestStickersSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/gifs/RequestTranslateSearch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/gifs/RequestTranslateSearch$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/gifs/RequestTranslateSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/gifs/RequestTranslateSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/gifs/ServiceTrendingRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/gifs/ServiceTrendingRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +89,7 @@
       <file leaf-file-name="ServiceUploadRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
+            <state relative-caret-position="564">
               <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,94 +98,83 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ServiceTrendingStickersRequestBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequestBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module_giphy4j.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_giphy4j.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceTrendingStickersRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+            <state relative-caret-position="244">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadErrorResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/UploadErrorResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleParsedResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/SingleParsedResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceTrendingRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceByIDRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="58" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/Request.java">
+      <file leaf-file-name="SingleResultRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/SingleResultRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="30" />
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceUploadRequestBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java">
+      <file leaf-file-name="UploadRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/UploadRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GiphyService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java">
+      <file leaf-file-name="MissingCredentialsException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/MissingCredentialsException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+            <state relative-caret-position="51">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rating.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/Rating.java">
+      <file leaf-file-name="NoResultException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/NoResultException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/UploadException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -188,10 +211,20 @@
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/UploadResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/SingleParsedResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/UploadErrorResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/test/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/MultiResultRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/SingleResultRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/gifs/ServiceSearchRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/stickers/RequestStickersSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/gifs/RequestTranslateSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -208,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,14 +269,7 @@
               <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="giphy4j1_0_1_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="giphy4j_1_0_0_jar" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j1_0_2_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
@@ -317,7 +342,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
               <item name="request" type="462c0819:PsiDirectoryNode" />
-              <item name="parse" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="stickers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
@@ -360,6 +407,38 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
               <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="stickers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
               <item name="gifs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,7 +459,51 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
               <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="translate" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="translate" type="462c0819:PsiDirectoryNode" />
+              <item name="stickers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
               <item name="trending" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="trending" type="462c0819:PsiDirectoryNode" />
+              <item name="gifs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Giphy4Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="giphy4j" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="trending" type="462c0819:PsiDirectoryNode" />
+              <item name="stickers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="giphy4j" type="b2602c69:ProjectViewProjectNode" />
@@ -396,6 +519,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -505,18 +629,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.24945533" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.07734205" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.15141612" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -532,114 +656,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.24945533" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/UploadErrorResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/parse/SingleParsedResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/Rating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
@@ -761,27 +783,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/interfaces/OnUploadSucces.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/NoResultException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/UploadException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/response/ResponseError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -800,27 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/MultiResultRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/UploadRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/SingleResultRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="18" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -849,26 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -880,9 +840,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/org/giphy4j/interfaces/OnResponseError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/interfaces/OnMultiSearchSuccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
+        <state relative-caret-position="836">
           <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -892,16 +887,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/GiphyService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/MultiResultRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+        <state relative-caret-position="425">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/gifs/ServiceRandomEndpointRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="116" selection-start-line="116" selection-end-line="119" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/random/stickers/ServiceRandomStickerRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/gifs/ServiceSearchRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/search/stickers/RequestStickersSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="143" column="9" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/searchbyID/gifs/ServiceByIDRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/gifs/RequestTranslateSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/translate/stickers/RequestStickersTranslateSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/gifs/ServiceTrendingRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="126" column="9" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/upload/ServiceUploadRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
+        <state relative-caret-position="564">
           <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -909,10 +966,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_giphy4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/trending/stickers/ServiceTrendingStickersRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/UploadRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/MissingCredentialsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/NoResultException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/exceptions/UploadException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/giphy4j/request/schemas/request/child/SingleResultRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+        <state relative-caret-position="244">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -922,7 +1035,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>giphy4j1.0.1:jar</last-edited>
+          <last-edited>giphy4j1.0.2:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

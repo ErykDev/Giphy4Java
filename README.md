@@ -13,10 +13,10 @@ Maven:
 <dependency>
     <groupId>com.github.BadlyDrunkScotsman</groupId>
     <artifactId>Giphy4Java</artifactId>
-    <version>v1.0.1</version>
+    <version>v1.0.2</version>
 </dependency>
 ```
-Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.1/giphy4j.jar)
+Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.2/giphy4j.jar)
 
 
 ## Building the service

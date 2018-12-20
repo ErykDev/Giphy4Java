@@ -15,6 +15,7 @@ import org.giphy4j.request.parse.SingleParsedResult;
 import org.giphy4j.request.schemas.request.child.SingleResultRequest;
 
 import java.io.IOException;
+import java.util.Optional;
 
 /**
  * @author Eryk Szmyt
@@ -113,5 +114,16 @@ public final class ServiceRandomEndpointRequest extends SingleResultRequest {
         return null;
     }
 
-
+    /**
+     * Executing request with optional result
+     * @return optional request result
+     * */
+    @Override
+    public Optional<SingleParsedResult> executeForOptional() {
+        try {
+            return Optional.ofNullable(this.execute());
+        }catch (NoResultException e){
+            return Optional.empty();
+        }
+    }
 }

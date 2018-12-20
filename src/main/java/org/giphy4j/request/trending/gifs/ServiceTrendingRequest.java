@@ -14,6 +14,7 @@ import org.giphy4j.request.schemas.request.child.MultiResultRequest;
 import org.giphy4j.request.parse.MultiParsedResult;
 
 import java.io.IOException;
+import java.util.Optional;
 
 
 /**
@@ -118,5 +119,18 @@ public final class ServiceTrendingRequest extends MultiResultRequest {
             throw new NoResultException("There is no trending");
         }
         return null;
+    }
+
+    /**
+     * Executing request with optional result
+     * @return optional request result
+     * */
+    @Override
+    public Optional<MultiParsedResult> executeForOptional() {
+        try {
+            return Optional.ofNullable(this.execute());
+        }catch (NoResultException e){
+            return Optional.empty();
+        }
     }
 }
