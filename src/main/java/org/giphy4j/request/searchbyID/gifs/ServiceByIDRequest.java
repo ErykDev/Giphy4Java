@@ -101,7 +101,7 @@ public final class ServiceByIDRequest extends SingleResultRequest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return null;
+        throw new NoResultException("There is no result for: "+_IDs);
     }
 
     /**

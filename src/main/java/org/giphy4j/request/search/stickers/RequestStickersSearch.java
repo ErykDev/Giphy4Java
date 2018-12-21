@@ -125,7 +125,6 @@ public final class RequestStickersSearch extends MultiResultRequest {
                         }catch (NullPointerException ignored){}
                     }else {
                         _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
-                        throw new NoResultException("There is no results for: "+_Query);
                     }
 
             return pr;
@@ -135,7 +134,7 @@ public final class RequestStickersSearch extends MultiResultRequest {
         } catch (NullPointerException e){
             throw new NoResultException("There is no results for: "+_Query);
         }
-        return null;
+        throw new NoResultException("There is no results for: "+_Query);
     }
 
     /**

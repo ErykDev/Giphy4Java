@@ -118,7 +118,7 @@ public final class ServiceTrendingRequest extends MultiResultRequest {
         } catch (NullPointerException e){
             throw new NoResultException("There is no trending");
         }
-        return null;
+        throw new NoResultException("There is no trending");
     }
 
     /**

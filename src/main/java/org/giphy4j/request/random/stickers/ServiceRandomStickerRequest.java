@@ -110,7 +110,7 @@ public final class ServiceRandomStickerRequest extends SingleResultRequest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return null;
+        throw new NoResultException("There is no results for: "+_Tag);
     }
 
     /**

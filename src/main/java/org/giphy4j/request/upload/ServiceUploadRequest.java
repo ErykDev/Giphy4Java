@@ -109,6 +109,7 @@ public final class ServiceUploadRequest extends UploadRequest {
             Response response = client.newCall(request).execute();
 
             if (!response.isSuccessful()){
+                assert response.body() != null;
                 UploadErrorResponse up = gson.fromJson(response.body().string(),UploadErrorResponse.class);
                 _OnResponseError.run(new ResponseError(up.getMeta().getStatus(),up.getMeta().getMsg()));
             }

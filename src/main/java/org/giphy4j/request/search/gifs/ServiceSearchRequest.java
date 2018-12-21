@@ -127,7 +127,6 @@ public final class ServiceSearchRequest extends MultiResultRequest {
                         }catch (NullPointerException e){}
                     }else {
                         _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
-                        throw new NoResultException("There is no results for: "+_Query);
                     }
             return pr;
 
@@ -136,7 +135,7 @@ public final class ServiceSearchRequest extends MultiResultRequest {
         } catch (NullPointerException e){
             throw new NoResultException("There is no results for: "+_Query);
         }
-        return null;
+        throw new NoResultException("There is no results for: "+_Query);
     }
 
     /**

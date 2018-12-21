@@ -107,11 +107,10 @@ public final class ServiceRandomEndpointRequest extends SingleResultRequest {
                 _OnResponseError.run(new ResponseError(prr.getMeta().getStatus(),prr.getMeta().getMsg()));
             }
             return prr;
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return null;
+        throw new NoResultException("There is no results for: "+_Tag);
     }
 
     /**
