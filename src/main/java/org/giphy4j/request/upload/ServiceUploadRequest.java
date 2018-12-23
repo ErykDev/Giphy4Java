@@ -108,11 +108,14 @@ public final class ServiceUploadRequest extends UploadRequest {
 
             Response response = client.newCall(request).execute();
 
+            assert response.body() != null;
             if (!response.isSuccessful()){
-                assert response.body() != null;
                 UploadErrorResponse up = gson.fromJson(response.body().string(),UploadErrorResponse.class);
                 _OnResponseError.run(new ResponseError(up.getMeta().getStatus(),up.getMeta().getMsg()));
+            }else{
+                _OnUploadSucces.run();
             }
+
         } catch (IOException e) {
             throw new UploadException("Can not upload "+_Gif.getName(),e);
         }

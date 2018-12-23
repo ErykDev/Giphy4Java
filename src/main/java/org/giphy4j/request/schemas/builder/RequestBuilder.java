@@ -12,14 +12,12 @@ public abstract class RequestBuilder {
      */
     protected String _ApiKey;
 
-
     /**
      * @param ApiKey Giphy Api Key
      */
     public RequestBuilder(String ApiKey){
         this._ApiKey = ApiKey;
     }
-
 
     /**
      * @return new Request

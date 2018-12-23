@@ -120,16 +120,16 @@ public final class ServiceSearchRequest extends MultiResultRequest {
             MultiParsedResult pr = gson.fromJson(response.body().string(),MultiParsedResult.class);
 
             if (pr.getMeta().getStatus() == 200 || pr.getMeta().getStatus() == 202)
-
                     if (!pr.getData().isEmpty()) {
                         try {
                             _OnMultiSearchSuccess.run(pr.getData());
                         }catch (NullPointerException e){}
+
+                        return pr;
+
                     }else {
                         _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
                     }
-            return pr;
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (NullPointerException e){

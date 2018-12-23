@@ -13,10 +13,10 @@ Maven:
 <dependency>
     <groupId>com.github.BadlyDrunkScotsman</groupId>
     <artifactId>Giphy4Java</artifactId>
-    <version>v1.0.2</version>
+    <version>v1.0.3</version>
 </dependency>
 ```
-Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.2/giphy4j.jar)
+Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.3/giphy4j.jar)
 
 
 ## Building the service
@@ -86,3 +86,5 @@ Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v
 
 ## Licence
 This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+
+![alt text](https://www.danasilver.org/giphymessages/PoweredBy_Horizontal_Light-Backgrounds.gif)

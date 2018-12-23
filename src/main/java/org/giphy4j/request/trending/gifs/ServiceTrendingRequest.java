@@ -108,11 +108,11 @@ public final class ServiceTrendingRequest extends MultiResultRequest {
                 try {
                     _OnMultiSearchSuccess.run(pr.getData());
                 }catch (NullPointerException ignored){}
+
+                return pr;
             }else{
                 _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
             }
-            return pr;
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (NullPointerException e){

@@ -117,18 +117,19 @@ public final class RequestStickersSearch extends MultiResultRequest {
             assert res.body() != null;
             MultiParsedResult pr = gson.fromJson(res.body().string(),MultiParsedResult.class);
 
-            if (pr.getMeta().getStatus() == 200 || pr.getMeta().getStatus() == 202)
+            if (pr.getMeta().getStatus() == 200 || pr.getMeta().getStatus() == 202){
 
-                    if (!pr.getData().isEmpty()) {
-                        try {
-                            _OnMultiSearchSuccess.run(pr.getData());
-                        }catch (NullPointerException ignored){}
-                    }else {
-                        _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
-                    }
+                if (!pr.getData().isEmpty()) {
+                    try {
+                        _OnMultiSearchSuccess.run(pr.getData());
+                    }catch (NullPointerException ignored){}
 
-            return pr;
+                    return pr;
 
+                }else {
+                    _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
         } catch (NullPointerException e){

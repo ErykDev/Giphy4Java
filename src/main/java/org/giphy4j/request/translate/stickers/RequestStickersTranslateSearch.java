@@ -95,16 +95,14 @@ public final class RequestStickersTranslateSearch extends SingleResultRequest {
                 if (pr.getData() != null) {
                     try {
                         _OnSearchSuccess.run(pr.getData());
-                    } catch (NullPointerException ignored) {
-                    }
+                    } catch (NullPointerException ignored) {}
 
+                    return pr;
                 } else
                     throw new NoResultException("There is no results for: " + _Query);
             }else{
                     _OnResponseError.run(new ResponseError(pr.getMeta().getStatus(),pr.getMeta().getMsg()));
             }
-            return pr;
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (NullPointerException e){

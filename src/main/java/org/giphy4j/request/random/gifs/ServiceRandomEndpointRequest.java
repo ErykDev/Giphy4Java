@@ -99,14 +99,15 @@ public final class ServiceRandomEndpointRequest extends SingleResultRequest {
             assert response.body() != null;
             SingleParsedResult prr = gson.fromJson(response.body().string(),SingleParsedResult.class);
 
-            if (prr.getMeta().getStatus() == 200 || prr.getMeta().getStatus() == 202)
+            if (prr.getMeta().getStatus() == 200 || prr.getMeta().getStatus() == 202) {
                 try {
                     _OnSingleSearchSuccess.run(prr.getData());
-                }catch (NullPointerException ignored){}
-            else{
+                } catch (NullPointerException ignored) {}
+
+                return prr;
+            }else{
                 _OnResponseError.run(new ResponseError(prr.getMeta().getStatus(),prr.getMeta().getMsg()));
             }
-            return prr;
         } catch (IOException e) {
             e.printStackTrace();
         }

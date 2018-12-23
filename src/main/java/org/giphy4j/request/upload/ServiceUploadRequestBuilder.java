@@ -17,7 +17,7 @@ public final class ServiceUploadRequestBuilder extends RequestBuilder {
     private String _Source_image_url = null;
     private String _Source_post_url = null;
     private ArrayList<String> _Tags = null;
-    private OnUploadSucces _OnUploadSucces = null;
+    private OnUploadSucces _OnUploadSuccess = null;
     private OnResponseError _OnResponseError = err -> {
         throw new Error(err.getResponseCode()+"  "+err.getMessage());
     };
@@ -107,7 +107,7 @@ public final class ServiceUploadRequestBuilder extends RequestBuilder {
      * @param _OnUploadSuccess on succes action
      */
     public ServiceUploadRequestBuilder setOnSuccess(OnUploadSucces _OnUploadSuccess) {
-        this._OnUploadSucces = _OnUploadSucces;
+        this._OnUploadSuccess = _OnUploadSuccess;
         return this;
     }
 
@@ -131,6 +131,6 @@ public final class ServiceUploadRequestBuilder extends RequestBuilder {
             throw new Error("Not specified Source url or File");
         }
 
-        return new ServiceUploadRequest(_ApiKey,_Gif,_Username,_Source_image_url,_Source_post_url,_Tags,_OnUploadSucces, _OnResponseError);
+        return new ServiceUploadRequest(_ApiKey,_Gif,_Username,_Source_image_url,_Source_post_url,_Tags, _OnUploadSuccess, _OnResponseError);
     }
 }
