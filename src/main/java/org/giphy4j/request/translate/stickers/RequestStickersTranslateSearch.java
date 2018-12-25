@@ -1,6 +1,3 @@
-/**
- * Package for translate sticker request
- * */
 package org.giphy4j.request.translate.stickers;
 
 import okhttp3.HttpUrl;

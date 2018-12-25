@@ -1,5 +1,8 @@
 package org.giphy4j.request;
 
+/**
+ * Possible ratings to pick while requesting search Endpoint
+ */
 public enum Rating {
     Y{
         @Override

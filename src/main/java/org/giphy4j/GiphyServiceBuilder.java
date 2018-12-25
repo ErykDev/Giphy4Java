@@ -9,6 +9,7 @@ public final class GiphyServiceBuilder {
     private String Api_Key ="";
 
     /**
+     * setting Giphy Api key
      * @param ApiKey Giphy Api Key
      */
     public GiphyServiceBuilder setApiKey(String ApiKey){

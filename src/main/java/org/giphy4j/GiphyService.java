@@ -1,6 +1,3 @@
-/**
- * Core package
- * */
 package org.giphy4j;
 
 import org.giphy4j.request.random.stickers.ServiceRandomStickerRequestBuilder;
@@ -31,6 +28,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting ServiceSearchRequest builder
      * @return builder for ServiceSearchRequest
      */
     public ServiceSearchRequestBuilder getSearchRequestBuilder(){
@@ -38,6 +36,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting ServiceRandomEndpointRequest builder
      * @return builder for ServiceRandomEndpointRequest
      */
     public ServiceRandomEndpointRequestBuilder getRandomEndpointRequestBuilder(){
@@ -45,6 +44,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting ServiceTrendingRequest builder
      * @return builder for ServiceTrendingRequest
      */
     public ServiceTrendingRequestBuilder getTrendingRequestBuilder(){
@@ -52,6 +52,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting RequestStickersSearch builder
      * @return builder for RequestStickersSearch
      */
     public ServiceStickersSearchRequestBuilder getStickersSearchBuilder(){
@@ -59,6 +60,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting ServiceByIDRequest builder
      * @return builder for ServiceByIDRequest
      */
     public ServiceByIDRequestBuilder getIDRequestBuilder(){
@@ -66,6 +68,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting RequestTranslateSearch builder
      * @return builder for RequestTranslateSearch
      * */
     public ServiceTranslateSearchRequestBuilder getTranslateSearchBuilder(){
@@ -73,6 +76,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting ServiceStickersTranslate builder
      * @return builder for ServiceStickersTranslate
      * */
     public ServiceStickersTranslateRequestBuilder getStickersTranslateSearchBuilder(){
@@ -80,6 +84,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting ServiceRandomStickerRequest builder
      * @return builder for ServiceRandomStickerRequest
      * */
     public ServiceRandomStickerRequestBuilder getRandomStickerBuilder(){
@@ -87,17 +92,23 @@ public final class GiphyService {
     }
 
     /**
+     * getting ServiceTrendingStickersRequest builder
      * @return builder for ServiceTrendingStickersRequest
      * */
     public ServiceTrendingStickersRequestBuilder getTrendingStickersBuilder(){
         return new ServiceTrendingStickersRequestBuilder(API_KEY);
     }
 
+    /**
+     * getting ServiceUploadRequestBuilder builder
+     * @return builder for ServiceUploadRequestBuilder
+     * */
     public ServiceUploadRequestBuilder getUploadRequestBuilder(){
         return new ServiceUploadRequestBuilder(API_KEY);
     }
 
     /**
+     * getting GiphyService builder
      * @return builder for GiphyService
      * */
     public static GiphyServiceBuilder getBuilder(){
@@ -105,6 +116,7 @@ public final class GiphyService {
     }
 
     /**
+     * getting passed api key
      * @return passed api key
      * */
     public String getApiKey(){

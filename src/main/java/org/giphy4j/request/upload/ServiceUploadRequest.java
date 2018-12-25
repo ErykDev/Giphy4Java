@@ -41,6 +41,17 @@ public final class ServiceUploadRequest extends UploadRequest {
     }
 
     /**
+     * Generates string value made of tags collection
+     * */
+    private String generateTagsString(){
+        StringBuilder sb = new StringBuilder();
+
+        _Tags.forEach(value -> sb.append(value).append(", "));
+
+        return sb.toString();
+    }
+
+    /**
      * Builds request link
      * @return request link
      */
@@ -66,7 +77,6 @@ public final class ServiceUploadRequest extends UploadRequest {
         });
     }
 
-
     /**
      * Executes upload request
      * @throws UploadException when exception inside occurs
@@ -79,6 +89,10 @@ public final class ServiceUploadRequest extends UploadRequest {
                         .setType(MultipartBody.FORM)
                         .addFormDataPart("api_key", _ApiKey)
                         .addFormDataPart("username", _Username);
+
+            if (_Tags != null) {
+                bodybuilder.addFormDataPart("tags", this.generateTagsString());
+            }
 
             if (_Gif != null) {
                 bodybuilder.addFormDataPart("file", _Gif.getName(),

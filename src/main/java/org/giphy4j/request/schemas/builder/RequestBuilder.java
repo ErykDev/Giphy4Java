@@ -1,6 +1,3 @@
-/**
- * Package for request builder schema
- * */
 package org.giphy4j.request.schemas.builder;
 
 import org.giphy4j.request.schemas.request.Request;
