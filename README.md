@@ -3,19 +3,7 @@ Simply asynchronous wrapper library for Giphy Api
 
 
 ### Installing
-Maven:
-```
-<repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-</repository>
 
-<dependency>
-    <groupId>com.github.BadlyDrunkScotsman</groupId>
-    <artifactId>Giphy4Java</artifactId>
-    <version>v1.0.3</version>
-</dependency>
-```
 Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.3/giphy4j.jar)
 
 
