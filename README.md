@@ -4,7 +4,7 @@ Simply asynchronous wrapper library for Giphy Api
 
 ### Installing
 
-Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/download/v1.0.3/giphy4j.jar)
+Jar: [link](https://github.com/BadlyDrunkScotsman/Giphy4Java/releases/tag/V1.0.3)
 
 
 ## Building the service
